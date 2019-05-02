@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Viewport" content="width=device-width"/> 
+
+    <title>AdoroCINEMA - SHAZAM</title>
+    <link rel="StyleSheet" href="folha1.css" type="text/css" media="all"/>
+    <script src="funcoes.js"></script>
+    <script>
+
+            function ampliarImg(img) {
+                
+                if (img == 1) 
+                {
+                    document.getElementById("img1").style.border = "3px solid blue";
+                    document.getElementById("img2").style.border =  "0px";
+                    document.getElementById("img3").style.border =  "0px";
+                    document.getElementById("img4").src = document.getElementById("img1").src;
+                }
+                else if (img == 2) 
+                {
+                    document.getElementById("img2").style.border = "3px solid blue";
+                    document.getElementById("img1").style.border =  "0px";
+                    document.getElementById("img3").style.border =  "0px";
+                    document.getElementById("img4").src = document.getElementById("img2").src;
+                }
+                else if (img == 3) 
+                {
+                    document.getElementById("img3").style.border = "3px solid blue";
+                    document.getElementById("img1").style.border =  "0px";
+                    document.getElementById("img2").style.border =  "0px";
+                    document.getElementById("img4").src = document.getElementById("img3").src;
+                }
+            }
+            </script>    
+</head>
+
+<body>
+<section>
+<header>
+<img width="160" height="80" alt="" src="http://www.mundodomarketing.com.br/images/editoriais2/adorocinema.jpg">
+<h1>SHAZAM!</h1>
+</header>
+<img width="180" height="200" src="http://br.web.img3.acsta.net/c_215_290/pictures/19/02/21/21/08/3735597.jpg" alt="">
+<dl>
+        <dt>Data Lançamento</dt>
+        <dd>4 de abril de 2019 (2h 12min)</dd>
+        <dt>Direção</dt>
+        <dd>David F. Sandberg</dd>
+        <dt>Elenco</dt>
+        <dd>Zachary Levi</dd>
+        <dd>Asher Angel</dd>
+        <dd>Mark Strong</dd>
+        <dt>Gêneros</dt>
+        <dd>Ação</dd>
+        <dd>Fantasia</dd>
+        <dt>Nacionalidade</dt>
+        <dd>EUA</dd>
+</dl>
+
+<h2>SINOPSE E DETALHES</h2>
+<h3>Não recomendado para menores de 12 anos</h3>
+<p>Billy Batson (Asher Angel) tem apenas 14 anos de idade, mas recebeu de um antigo mago o dom de se transformar num super-herói adulto chamado Shazam (Zachary Levi). Ao gritar a palavra SHAZAM!, o adolescente se transforma nessa sua poderosa versão adulta para se divertir e testar suas habilidades. Contudo, ele precisa aprender a controlar seus poderes para enfrentar o malvado Dr. Thaddeus Sivana (Mark Strong).</p>
+
+<div id="direita">
+    <img id="img4" width="420" height="420" src="https://jovemnerd.com.br/wp-content/uploads/2019/03/zachary-levi-760x428.png" alt="">
+</div>
+
+<div id="esquerda">
+    <a>    <img id="img1" width="140" height="140" src="https://kanto.legiaodosherois.com.br/w750-h393-gnw-cfill-q80/wp-content/uploads/2018/07/legiao_T4JrYhNczaw9OG7t0nMXuymK5_xeZ3Q1UWFSp2PVlq.jpg.jpeg" alt="" onclick="ampliarImg(1)" /> </a>
+    <a>    <img id="img2" width="140" height="140" src="https://kanto.legiaodosherois.com.br/w750-h393-gnw-cfill-q80/wp-content/uploads/2018/01/legiao_HC0zUtpTq9NuhRmxSEfIV6ZyYLbXQFrGJd8KOljgD1.jpg.jpeg" alt="" onclick="ampliarImg(2)" /> </a>
+    <a>    <img id="img3" width="140" height="140" src="https://jovemnerd.com.br/wp-content/uploads/2019/03/zachary-levi-760x428.png" alt="" onclick="ampliarImg(3)" /> </a>
+</div>
+ 
+
+<section>
+    <h2>Shazam! | Trailer 2 Dublado</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GPlZIqKZTC4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+</section>
+
+<section>
+    <h1>SESSÕES DE CINEMA</h1>
+	<h2>Exibições por cidade</h2>
+    <ul>
+        <li>Belo Horizonte</li>
+        <li>Brasília</li>
+        <li>Campo Grande</li>
+        <li>Curitiba</li>
+        <li>Duque de Caxias</li>
+        <li>Fortaleza</li>
+        <li>Goiânia</li>
+		<li>Guarulhos</li>
+		<li>Maceió</li>
+		<li>Manaus</li>
+		<li>Nova Iguaçu</li>
+		<li>Osasco</li>
+		<li>Porto Alegre</li>
+		<li>Recife</li>
+		<li>Rio de Janeiro</li>
+		<li>Salvador</li>
+		<li>São Bernardo do Campo</li>
+		<li>São Gonçalo</li>
+		<li>São Luís</li>
+		<li>São Paulo</li>
+		<li>Teresina</li>
+	</ul>
+</section>
+
+<footer>
+Queremos sua opinião! | Sobre o AdoroCinema | Contato | Termos e condições | Carta de confidencialidade | ©AdoroCinema
+</footer>
+
+</body>
+</html>

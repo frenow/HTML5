@@ -1,0 +1,26 @@
+
+@media only screen and (min-width: 300px) {
+    body{
+    background: gray;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    body{
+    background: silver;
+    }
+}
+  
+#direita img {
+    float: right;  
+    position: absolute;
+    right: 50%;
+    margin-right: -50px; 
+}
+#esquerda img {
+	cursor:Pointer;
+    position: relative;   
+    display: block;        
+}
+
+
